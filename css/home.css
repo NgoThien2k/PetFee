@@ -1,8 +1,29 @@
-.affix{
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+.navbar{
+    position:relative;
 }
-.affix + .container-fluid {
-    padding-top: 70px;
-  }
+.container{
+    padding: 0px;
+}
+#background-img1{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-collapse-md{
+    background-image: url(../img/bg-1.jpg);
+}
+#carouselExampleControls{
+    background: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand{
+
+    height: 100%;
+    line-height: 80px;
+}
+.logo{
+    height: 80px;
+}
+.container{
+    background-image: url(../img/pet1.jpeg);
+    position: relative;
+}
