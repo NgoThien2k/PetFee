@@ -4,18 +4,21 @@ html{
     
 }
 .container-fluid{
-   position: relative;
+   
    width: 150px;
    height: auto;
 }
 #responsive{
     max-width: 100%;
     height: auto;
-    position: absolute;
-    z-index: 1;
+    /* position: absolute; */
+    z-index: -1;
+    position: relative;
 }
 #navv{
     padding-top: 0px;
+    position: absolute;
+    top: 0;
     
 }
 .container{
@@ -36,11 +39,24 @@ html{
 }
 .logo{
     width: 100px;
+   
 
 }
 
+.caroul{
+    border-color: black;
+    background-color: aqua;
+    width: 400px;
+    height: 50px;
+    margin-left: 100px;
+   
+}
+#carouselExampleControls{
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
 
-
-
+ 
 
 
