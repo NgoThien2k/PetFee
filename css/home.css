@@ -23,7 +23,12 @@
 .logo{
     height: 80px;
 }
-.container{
+/* .container{
     background-image: url(../img/pet1.jpeg);
     position: relative;
+} */
+.box-nav{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/pet1.jpeg);
 }

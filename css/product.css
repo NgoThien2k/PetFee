@@ -1,0 +1,17 @@
+.header-product{
+    font-size: 32px;
+    padding:  10px 20px 0px 20px ;
+    text-align: center;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#f48986, #fce18a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #f48986;
+    font-family: 'Satisfy';
+}
+.product-list{
+    padding-top: 20px;
+}
+.card{
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
