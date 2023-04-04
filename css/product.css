@@ -2,7 +2,7 @@
     font-size: 32px;
     padding:  10px 20px 0px 20px ;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
     background: -webkit-linear-gradient(#f48986, #fce18a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -14,14 +14,4 @@
 }
 .card{
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.card-img-top{
-    transition: transform .2s;
-
-}
-.card-img-top:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-
 }
