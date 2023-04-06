@@ -3,6 +3,7 @@
 html{
     
 }
+<<<<<<< HEAD
 
 #responsive{
     max-width: 100%;
@@ -16,6 +17,21 @@ html{
     top: 0;
     justify-content: end;
     display: flex;
+=======
+.container-fluid{
+   position: relative;
+   width: 150px;
+   height: auto;
+}
+#responsive{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+#navv{
+    padding-top: 0px;
+>>>>>>> main
     
 }
 .container{
@@ -43,6 +59,7 @@ html{
     left: 35%;
     top: 70%;
 }
+<<<<<<< HEAD
 
 
  
@@ -139,13 +156,20 @@ html{
 .yellow {background: yellow;}
 
 
+=======
+>>>>>>> main
 .navbar-brand{
     height: 100%;
 }
 .logo{
-    height: 80px;
+    width: 100px;
+
 }
 .container{
     background-image: url(../img/pet1.jpeg);
     position: relative;
+}.box-nav{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/pet1.jpeg);
 }
