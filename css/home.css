@@ -138,3 +138,14 @@ html{
 
 .yellow {background: yellow;}
 
+
+.navbar-brand{
+    height: 100%;
+}
+.logo{
+    height: 80px;
+}
+.container{
+    background-image: url(../img/pet1.jpeg);
+    position: relative;
+}
